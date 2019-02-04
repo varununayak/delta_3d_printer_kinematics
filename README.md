@@ -1,6 +1,10 @@
 # delta_3d_printer_kinematics
 Design, modelling, inverse kinematics analysis and simulation of a delta-configuration 3D printer
 
+This short simulation assignment was completed by Varun Nayak as part of the final project on advanced prototyping methods in BITS Pilani, Goa Campus, in 2017.
+
+Please have a look at the Documentation/* pdf file for the project report
+
 The MATLAB files contain the inverse kinematics solver and the workspace generator (as a 2D plot) for a 3-DoF delta configuration parallel manipulator. Joint limits, link lengths and other parameters can be varied
 The 'deltaprinter.m' file performs the inverse kinematics computations on the X,Y,Z positions and produces the required joint variable values. The 'workspace.m' file calls this file to plot the workspace of the 3DPrinter.
 
